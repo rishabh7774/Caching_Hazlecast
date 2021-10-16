@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hazel
+    username: root
+    password: password
+
+  jpa:
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
